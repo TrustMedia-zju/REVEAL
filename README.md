@@ -27,12 +27,12 @@ Download training data [here]([https://www.modelscope.cn/datasets/EricTanh/Hydra
 
 ### 1. supervised fine-tuning on a consolidated Chainof-Evidence dataset (CoE Tuning)
 ```bash
-sh self_scripts/train/train_sft.sh sft sft_36k
+sh examples/train/liger/sft_llava_13b_single.sh
 ```
 
 ### 2. Reasoning-Enhanced GRPO (R-GRPO)
 ```bash
-sh self_scripts/train/train_mipo.sh mipo mipo_3k
+sh examples/train/grpo/plugin/grpollava_stepthink13b.sh
 ```
 
 
