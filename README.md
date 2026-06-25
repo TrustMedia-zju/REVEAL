@@ -23,31 +23,20 @@ https://swift.readthedocs.io/en/v3.6/
 
 
 ## 🔥 Training
-Download training data [here](https://www.modelscope.cn/datasets/EricTanh/HydraFake/tree/master/jsons/train), including `sft_36k.json`, `mipo_3k.json`, `pgrpo_8k.json`.
+Download training data [here]([https://www.modelscope.cn/datasets/EricTanh/HydraFake/tree/master/jsons/train](https://huggingface.co/datasets/sanmu29/REVEAL-Bench)).
 
-### 1. Cold-start (SFT)
+### 1. supervised fine-tuning on a consolidated Chainof-Evidence dataset (CoE Tuning)
 ```bash
 sh self_scripts/train/train_sft.sh sft sft_36k
 ```
 
-### 2. Cold-start (MiPO)
+### 2. Reasoning-Enhanced GRPO (R-GRPO)
 ```bash
 sh self_scripts/train/train_mipo.sh mipo mipo_3k
 ```
 
 
-### 3. P-GRPO
 
-1.Deploy reward model. Download reward model [here](https://huggingface.co/CodeGoat24/UnifiedReward-qwen-3b), and replace the path in `swift/plugin/prm.py` and `self_scripts/deploy/deploy_reward_model.sh`.
-
-> Note: the choice of reward model is **flexible**. More powerful models may lead to better performance, e.g., UnifiedReward-qwen-7B, Qwen3-VL-8B or UnifiedReward-2.0-qwen3vl-8B.
-```bash
-sh self_scripts/deploy/deploy_reward_model.sh
-```
-
-2.P-GRPO training.
-```bash
-sh self_scripts/train/train_pgrpo.sh pgrpo pgrpo_8k
 ```
 
 
@@ -210,11 +199,11 @@ HydraFake contains 52K images in total for evaluation, with 14K in-domain testin
 ## Citation
 If you find our work useful, please cite our paper:
 ```
-@inproceedings{tan2025veritas,
-  title={Veritas: Generalizable Deepfake Detection via Pattern-Aware Reasoning},
-  author={Tan, Hao and Lan, Jun and Tan, Zichang and Liu, Ajian and Song, Chuanbiao and Shi, Senyuan and Zhu, Huijia and Wang, Weiqiang and Wan, Jun and Lei, Zhen},
-  booktitle={International Conference on Learning Representations},
-  year={2026}
+@article{cao2025reveal,
+  title={REVEAL: Reasoning-Enhanced Forensic Evidence Analysis for Explainable AI-Generated Image Detection},
+  author={Cao, Huangsen and Mei, Qin and Li, Zhiheng and Li, Yuxi and Meng, Zhan and Zhang, Ying and Li, Chen and Zhang, Zhimeng and Ding, Xin and Wang, Yongwei and others},
+  journal={arXiv preprint arXiv:2511.23158},
+  year={2025}
 }
 ```
 
