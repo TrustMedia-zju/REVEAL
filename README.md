@@ -158,7 +158,7 @@ python DeepfakeBench/training/test.py \
 
 
 
-## 🛡️ HydraFake Dataset
+## 🛡️ REVEAL-Bench
 
 📍 **Overview:**
 
@@ -179,8 +179,7 @@ HydraFake contains 52K images in total for evaluation, with 14K in-domain testin
 
 
 
-## 🛰️ Method
-
+## 🛰️ REVEAL
 📍 We introduce a pattern-aware reasoning framework, including three basic thinking patterns (*fast judgement*, *reasoning*, *conclusion*) and two advanced patterns (*planning* and *self-reflection*).
 
 📍 Two-stage training pipeline:
@@ -208,8 +207,8 @@ If you find our work useful, please cite our paper:
 ```
 
 ## License
-This repo is released under the [Apache 2.0 License](https://github.com/EricTan7/Veritas/blob/main/LICENSE).
+This project is released under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-This repo benefits from [ms-swift](https://github.com/modelscope/ms-swift) and [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench). Thanks for their great works!
+This repo benefits from [ms-swift](https://github.com/modelscope/ms-swift). Thanks for their great works!
