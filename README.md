@@ -163,7 +163,7 @@ python DeepfakeBench/training/test.py \
 📍 **Overview:**
 
 <p align="center">
-    <img src="src/data.png" alt="Dataset" width="95%">
+    <img src="./dataset_pipline_01.png" alt="Dataset" width="95%">
 </p>
 
 
