@@ -180,13 +180,13 @@ HydraFake contains 52K images in total for evaluation, with 14K in-domain testin
 
 
 ## 🛰️ REVEAL
-📍 We introduce a pattern-aware reasoning framework, including three basic thinking patterns (*fast judgement*, *reasoning*, *conclusion*) and two advanced patterns (*planning* and *self-reflection*).
+🔍 We introduce REVEAL, a reasoning-enhanced forensic framework...
 
-📍 Two-stage training pipeline:
+🧠 Two-stage training pipeline:
 
-(1) **Pattern-guided Cold-Start** (SFT + MiPO): Internalize thinking patterns and align reasoning process
+(1) **Chain-of-Evidence Tuning (CoE-Tuning)**: Learn multi-view forensic reasoning trajectories by supervising evidence discovery, evidence verification, and evidence summarization across diverse forensic cues.
 
-(2) **Pattern-aware Exploration** (P-GRPO): Scale up effective patterns, improve reflection quality.
+(2) **Reasoning-Enhanced GRPO (R-GRPO)**: Optimize reasoning robustness and evidence aggregation through reinforcement learning, improving generalization to unseen generators while maintaining explanation fidelity.
 
 <p align="center">
     <img src="./method_pipline.drawio_01.png" alt="Training pipeline" width="70%">
@@ -206,8 +206,6 @@ If you find our work useful, please cite our paper:
 }
 ```
 
-## License
-This project is released under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
