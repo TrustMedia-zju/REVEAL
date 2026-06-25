@@ -5,7 +5,7 @@
 
 In this work, we introduce:
 
-> 📍**REVEAL-Bench Dataset**: An explainable AI-generated image detection benchmark featuring multi-view forensic evidence, reasoning traces, and rigorous in-domain and out-of-distribution evaluation protocols.
+> 📍**REVEAL-Bench**: An explainable AI-generated image detection benchmark featuring multi-view forensic evidence, reasoning traces, and rigorous in-domain and out-of-distribution evaluation protocols.
 >
 > 📍**REVEAL**: A reasoning-enhanced forensic framework that aggregates multi-view evidence through large vision-language models, achieving strong generalization across unseen generators while providing transparent, human-interpretable decision processes.
 
