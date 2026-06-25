@@ -190,7 +190,7 @@ HydraFake contains 52K images in total for evaluation, with 14K in-domain testin
 (2) **Pattern-aware Exploration** (P-GRPO): Scale up effective patterns, improve reflection quality.
 
 <p align="center">
-    <img src="src/method.png" alt="Training pipeline" width="70%">
+    <img src="./method_pipline.drawio_01.png" alt="Training pipeline" width="70%">
 </p>
 
 
