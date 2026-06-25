@@ -35,10 +35,6 @@ sh examples/train/liger/sft_llava_13b_single.sh
 sh examples/train/grpo/plugin/grpollava_stepthink13b.sh
 ```
 
-
-
-```
-```
 ### 3. Test REVEAL
 ```bash
 # Effort for example
