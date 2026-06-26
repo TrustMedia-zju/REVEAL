@@ -23,6 +23,7 @@ https://swift.readthedocs.io/en/v3.6/
 
 
 ## 🔥 Training
+### 0. Prepare the REVEAL-Bench Dataset
 Download training data [here]([https://www.modelscope.cn/datasets/EricTanh/HydraFake/tree/master/jsons/train](https://huggingface.co/datasets/sanmu29/REVEAL-Bench)).
 
 ### 1. supervised fine-tuning on a consolidated Chainof-Evidence dataset (CoE Tuning)
